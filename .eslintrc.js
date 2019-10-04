@@ -10,7 +10,11 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
+  plugins: [
+    'html',
+  ]
   parserOptions: {
+    sourceType: 'script',
     ecmaVersion: 2018,
   },
   rules: {
